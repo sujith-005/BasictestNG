@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="sujithajithh"/>
+  <parameter name="username" value="sujithkrishna05@gmail.com"/>
+  <test name="possibility1(failed)">
+    <parameter name="password" value="sujithajithh"/>
+    <parameter name="username" value="sujithkrishna05@gmail.com"/>
+    <classes>
+      <class name="basictestNG.Datausingexcel">
+        <methods>
+          <include name="dataprovider"/>
+        </methods>
+      </class> <!-- basictestNG.Datausingexcel -->
+    </classes>
+  </test> <!-- possibility1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
