@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test suite">
+<listner>
+<listner class-name="testNG.lister"/>
+</listner>
+<test name="test case">
+<parameter name="name" value="sujith"/>
+<groups>
+<run>
+<include name="apple"/>
+<include name="oneplus"/>
+</run>
+</groups>
+<classes>
+<class name="testNg.Ecommerce"/>
+<class name="testNG.Sampletestng"/>
+<class name="testNG.Testleaf"/>
+<class name="testNG.Groping"/>
+<class name="testNG.Paralell"/>
+
+</classes>
+</test>                                                                  
+</suite>  

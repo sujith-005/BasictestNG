@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="20" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28907" started-at="2020-12-22T08:11:23Z" finished-at="2020-12-22T08:11:52Z">
+    <groups>
+      <group name="apple">
+        <method signature="Groping.apple()[pri:0, instance:testNg.Groping@2bcfcb]" name="apple" class="testNg.Groping"/>
+      </group> <!-- apple -->
+      <group name="redmi">
+        <method signature="Groping.redmi()[pri:0, instance:testNg.Groping@2bcfcb]" name="redmi" class="testNg.Groping"/>
+      </group> <!-- redmi -->
+      <group name="vivo">
+        <method signature="Groping.vivo()[pri:0, instance:testNg.Groping@2bcfcb]" name="vivo" class="testNg.Groping"/>
+      </group> <!-- vivo -->
+      <group name="oneplus">
+        <method signature="Groping.oneplus()[pri:0, instance:testNg.Groping@2bcfcb]" name="oneplus" class="testNg.Groping"/>
+      </group> <!-- oneplus -->
+      <group name="moto">
+        <method signature="Groping.moto()[pri:0, instance:testNg.Groping@2bcfcb]" name="moto" class="testNg.Groping"/>
+      </group> <!-- moto -->
+    </groups>
+    <test name="Test" duration-ms="28907" started-at="2020-12-22T08:11:23Z" finished-at="2020-12-22T08:11:52Z">
+      <class name="testNg.Assetion">
+        <test-method status="FAIL" signature="isthatequal()[pri:0, instance:testNg.Assetion@fbd816]" name="isthatequal" duration-ms="41" started-at="2020-12-22T00:11:47Z" finished-at="2020-12-22T00:11:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Sujith] but found [sujith]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Sujith] but found [sujith]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at testNg.Assetion.isthatequal(Assetion.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isthatequal -->
+      </class> <!-- testNg.Assetion -->
+      <class name="testNg.Groping">
+        <test-method status="PASS" signature="apple()[pri:0, instance:testNg.Groping@2bcfcb]" name="apple" duration-ms="2" started-at="2020-12-22T00:11:47Z" finished-at="2020-12-22T00:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method status="PASS" signature="moto()[pri:0, instance:testNg.Groping@2bcfcb]" name="moto" duration-ms="2" started-at="2020-12-22T00:11:47Z" finished-at="2020-12-22T00:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moto -->
+        <test-method status="PASS" signature="oneplus()[pri:0, instance:testNg.Groping@2bcfcb]" name="oneplus" duration-ms="2" started-at="2020-12-22T00:11:47Z" finished-at="2020-12-22T00:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneplus -->
+        <test-method status="PASS" signature="redmi()[pri:0, instance:testNg.Groping@2bcfcb]" name="redmi" duration-ms="2" started-at="2020-12-22T00:11:47Z" finished-at="2020-12-22T00:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redmi -->
+        <test-method status="PASS" signature="vivo()[pri:0, instance:testNg.Groping@2bcfcb]" name="vivo" duration-ms="1" started-at="2020-12-22T00:11:47Z" finished-at="2020-12-22T00:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vivo -->
+      </class> <!-- testNg.Groping -->
+      <class name="testNg.Sampletestng">
+        <test-method status="PASS" signature="first()[pri:0, instance:testNg.Sampletestng@1e8b406]" name="first" duration-ms="1" started-at="2020-12-22T00:11:47Z" finished-at="2020-12-22T00:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="last()[pri:0, instance:testNg.Sampletestng@1e8b406]" name="last" duration-ms="1" started-at="2020-12-22T00:11:47Z" finished-at="2020-12-22T00:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last -->
+        <test-method status="PASS" signature="secound()[pri:0, instance:testNg.Sampletestng@1e8b406]" name="secound" duration-ms="1" started-at="2020-12-22T00:11:47Z" finished-at="2020-12-22T00:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secound -->
+        <test-method status="PASS" signature="third()[pri:0, instance:testNg.Sampletestng@1e8b406]" name="third" duration-ms="1" started-at="2020-12-22T00:11:47Z" finished-at="2020-12-22T00:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+      </class> <!-- testNg.Sampletestng -->
+      <class name="testNg.Paralell">
+        <test-method status="PASS" signature="amazon()[pri:0, instance:testNg.Paralell@d2e7d9]" name="amazon" duration-ms="9890" started-at="2020-12-22T00:11:23Z" finished-at="2020-12-22T00:11:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="FAIL" signature="google()[pri:0, instance:testNg.Paralell@d2e7d9]" name="google" duration-ms="13809" started-at="2020-12-22T00:11:33Z" finished-at="2020-12-22T00:11:47Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SUJITH', ip: '192.168.42.176', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\SUJITH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1e432b74cb4bb55653669503588680ec]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SUJITH', ip: '192.168.42.176', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\SUJITH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1e432b74cb4bb55653669503588680ec
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at testNg.Paralell.google(Paralell.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+      </class> <!-- testNg.Paralell -->
+      <class name="testNg.Ecommerce">
+        <test-method status="PASS" signature="openpplicatpion()[pri:0, instance:testNg.Ecommerce@174d20a]" name="openpplicatpion" duration-ms="30" started-at="2020-12-22T00:11:23Z" finished-at="2020-12-22T00:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openpplicatpion -->
+        <test-method status="PASS" signature="product()[pri:1, instance:testNg.Ecommerce@174d20a]" name="product" duration-ms="2" started-at="2020-12-22T00:11:23Z" finished-at="2020-12-22T00:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product -->
+        <test-method status="PASS" signature="buynow()[pri:3, instance:testNg.Ecommerce@174d20a]" name="buynow" duration-ms="3" started-at="2020-12-22T00:11:23Z" finished-at="2020-12-22T00:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buynow -->
+        <test-method status="PASS" signature="addresseclection()[pri:4, instance:testNg.Ecommerce@174d20a]" name="addresseclection" duration-ms="1" started-at="2020-12-22T00:11:23Z" finished-at="2020-12-22T00:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addresseclection -->
+        <test-method status="PASS" signature="proceedpayment()[pri:5, instance:testNg.Ecommerce@174d20a]" name="proceedpayment" duration-ms="0" started-at="2020-12-22T00:11:23Z" finished-at="2020-12-22T00:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedpayment -->
+      </class> <!-- testNg.Ecommerce -->
+      <class name="testNg.Testleaf">
+        <test-method status="PASS" signature="browser()[pri:0, instance:testNg.Testleaf@121b0a2]" name="browser" is-config="true" duration-ms="14485" started-at="2020-12-22T00:11:08Z" finished-at="2020-12-22T00:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="opentestleaf()[pri:0, instance:testNg.Testleaf@121b0a2]" name="opentestleaf" duration-ms="4198" started-at="2020-12-22T00:11:47Z" finished-at="2020-12-22T00:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opentestleaf -->
+        <test-method status="PASS" signature="openbutton()[pri:1, instance:testNg.Testleaf@121b0a2]" name="openbutton" duration-ms="609" started-at="2020-12-22T00:11:51Z" finished-at="2020-12-22T00:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbutton -->
+        <test-method status="PASS" signature="defaulttextentered()[pri:2, instance:testNg.Testleaf@121b0a2]" name="defaulttextentered" duration-ms="75" started-at="2020-12-22T00:11:52Z" finished-at="2020-12-22T00:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaulttextentered -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:testNg.Testleaf@121b0a2]" name="finish" is-config="true" duration-ms="984" started-at="2020-12-22T00:11:52Z" finished-at="2020-12-22T00:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- testNg.Testleaf -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
